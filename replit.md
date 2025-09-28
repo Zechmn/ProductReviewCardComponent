@@ -4,6 +4,17 @@
 
 This is a Frontend Mentor challenge implementation that showcases a responsive product preview card component for a perfume product. The project demonstrates modern HTML5 and CSS3 techniques to create a clean, responsive card layout that adapts between mobile and desktop viewports. The component features semantic HTML structure, responsive images using the `<picture>` element, and CSS flexbox for layout management.
 
+## Recent Changes
+
+### September 28, 2025
+- **CSS Code Quality Improvements**: Comprehensive refactoring to improve maintainability and accessibility
+  - Added CSS custom properties for all colors and fonts to reduce code duplication
+  - Improved responsive design with relative units (rem) instead of fixed pixels
+  - Enhanced accessibility with proper `:focus-visible` styles for keyboard navigation
+  - Added intermediate breakpoint for better medium-screen experience
+  - Standardized formatting and eliminated inconsistent spacing throughout stylesheet
+  - Fixed image layout to span full container height with no bottom padding
+
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
@@ -24,9 +35,10 @@ Preferred communication style: Simple, everyday language.
 - **Component Structure**: Self-contained product card with image, content, and interactive elements
 
 ### Responsive Strategy
-- **Breakpoint Management**: Single breakpoint at 768px for desktop transition
+- **Breakpoint Management**: Multiple breakpoints using relative units (40rem, 48rem, 75rem) for fluid responsive behavior
 - **Image Optimization**: Responsive images using `<picture>` element with separate mobile/desktop assets
 - **Layout Adaptation**: Flexbox-based layout that stacks vertically on mobile and adapts for larger screens
+- **Progressive Enhancement**: Enhanced padding and spacing for medium and large screens
 
 ### Browser Compatibility
 - **CSS Reset**: Universal box-sizing and margin/padding reset for consistent rendering
